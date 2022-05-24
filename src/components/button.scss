@@ -1,0 +1,15 @@
+$bg-color: #333;
+$color: #fff;
+$text-upper: uppercase;
+$border: 1px solid #000;
+$borderRad: 5px;
+
+body {
+  .btn {
+    color: $color;
+    border: $border;
+    border-radius: $borderRad;
+    text-transform: $text-upper;
+    background-color: $bg-color;
+  }
+}
