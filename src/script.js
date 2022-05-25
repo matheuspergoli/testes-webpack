@@ -2,8 +2,9 @@ import Title from "./components/title.js"
 import Image from "./components/image.js"
 import Button from "./components/button.js"
 import warning from "./templates/warning.html"
-import "./style/warning.css"
 import fraseTxt from "./files/frase.txt"
+import descricao from "./files/descricao.json"
+import "./style/warning.css"
 
 const titulo1 = new Title('Título Principal')
 titulo1.createTitle()
@@ -34,3 +35,7 @@ body.innerHTML += warning
 // Import arquivo de texto
 const frase = fraseTxt
 console.log(frase)
+
+// Import JSON
+const pessoa = descricao
+console.log(pessoa)
