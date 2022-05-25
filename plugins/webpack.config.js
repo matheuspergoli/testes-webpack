@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.css'
+      filename: '[name][contenthash].css'
     }),
     new webpack.DefinePlugin({
       VERSION: JSON.stringify('1.0.2'),
